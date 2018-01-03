@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TicketView">
+        <attr name="ballRadius" format="dimension"/>
+        <attr name="ballColor" format="color"/>
+        <attr name="lineColor" format="color"/>
+        <attr name="dashGap" format="dimension"/>
+        <attr name="dashWidth" format="dimension"/>
+        <attr name="lineHeight" format="dimension"/>
+        <attr name="lineType" format="enum">
+            <enum name="point" value="0"/>
+            <enum name="rectangle" value="1"/>
+        </attr>
+    </declare-styleable>
+</resources>
